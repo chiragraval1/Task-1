@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        div
+        {
+            text-align: center;
+            margin-top: 20px;
+            
+        }
+        .main{
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            margin-top: 100px;
+            border: 1px solid black;
+            background:linear-gradient(#FF5733,#F08080);
+            box-shadow: 6px 4px 8px rgb(57, 199, 133) inset;
+            overflow: hidden;
+        }
+        .one
+        {
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(#AF7AC5,#AED6F1);
+            box-shadow: 3px 2px 3px inset;
+            border-radius: 50%;
+            border: 1px solid;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+        .two
+        {
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(#AF7AC5,#AED6F1);
+            box-shadow: 3px 2px 3px inset;
+            border-radius: 50%;
+            border: 1px solid;
+            margin-top: -200px;
+            margin-left: 300px;
+        }
+        .three
+        {
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(#EB984E,#B3B6B7);
+            box-shadow: 3px 2px 3px inset;
+            border-radius: 50%;
+            border: 1px solid;
+            margin-top: 150px;
+            margin-left: -100px;
+        }
+        .four
+        {
+            width: 200px;
+            height:200px;
+            background-color: #AF7AC5;
+            border-radius: 50%;
+            margin-top: -200px;
+            float: right;
+            /* margin-right: 500px; */
+            box-shadow: 3px 2px 3px inset;
+        }
+        .five
+        {
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            background-color: aquamarine;
+            border-radius: 50%;
+            margin-top: -400px;
+            box-shadow: 3px 2px 3px inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        hello this is main
+        <div class="one">One</div>
+        <div class="two">Two</div>
+        <div class="three">Three</div>
+        <div class="four">four</div>
+        <div class="five">Five</div>
+    </div>
+</body>
+</html>
