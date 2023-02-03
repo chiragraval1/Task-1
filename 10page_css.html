@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10_Page_using_css</title>
+    <style>
+        *{
+            margin: 0%;
+        }
+        ul{
+            list-style-type: none; background-color: darkgoldenrod;
+        }
+        li{
+            display: inline-block; padding: 0px 10px 0px 10px; margin: 0%;
+        }
+        li a{
+            text-decoration: none; color:black;
+        }
+        a:hover{
+            color: crimson;
+            background-color:black;
+        }
+        .poster{
+            width:100%;
+            background-color: skyblue;
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        
+        .product{
+            height: 312px;
+            width:100%;
+            background-color: skyblue;
+            padding-bottom: 0;
+            padding-top: 0;
+            display: flex;
+        }
+        .first{
+            height: 312px;
+            width: 20%;
+            background-color: darkgray;
+            position:relative;   
+        }        
+       .ek{
+        border: 2px solid;
+        background-color: aqua;
+        position: absolute;
+        transform: translate(50%,1350%);
+        left: 50px;
+       }
+       .second{
+            height: 312px;
+            width: 20%;
+            background-color: chartreuse;
+            position: relative;
+       }
+       
+       .do{
+        border: 2px solid;
+        background-color: aqua;
+        position: absolute;
+        transform: translate(50%,1350%);
+        left: 50px;
+       }
+        .thered{
+            height: 312px;
+            width: 20%;
+            background-color: darkgray;
+            position: relative;
+        }
+       .tin{
+        border: 2px solid;
+        background-color: aqua;
+        position: absolute;
+        transform: translate(50%,1350%);
+        left: 50px;
+       }
+       .four{
+            height: 312px;
+            width: 20%;
+            background-color: chartreuse;
+            position: relative;
+            
+       }
+       .char{
+        border: 2px solid;
+        background-color: aqua;
+        position: absolute;
+        transform: translate(50%,1350%);
+        left: 50px;
+       }
+       
+       .five{
+            height: 312px;
+            width: 20%;
+            background-color: darkgray;
+            position: relative;
+       }
+       .panch{
+        border: 2px solid;
+        background-color: aqua;
+        position: absolute;
+        transform: translate(50%,1350%);
+        left: 50px;
+       }
+    </style>
+</head>
+<body>
+    <h1>Task : 10 Page Using CSS</h1>
+    <div class="header">
+        <ul>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Tv & Appliances</a></li>
+            <li><a href="#">men</a></li>
+            <li><a href="#">women</a></li>
+            <li><a href="#">kids</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">sport</a></li>
+            <li><a href="#">flights</a></li>
+        </ul>
+    </div>
+    <div class="poster">
+        <img src="https://www.cnet.com/a/img/resize/3580b336aae48a5a84bb6d801099b7d842715990/hub/2018/08/01/bde306b1-b431-45a4-820d-f63fc0aad868/001-2018-ford-mustang-gt-review.jpg?auto=webp&width=1200" width="100%" alt="">
+    </div>
+    <div class="product">
+        <div class="first"><img src="image/iphone14.jpg" alt="iphone14">
+            <a href="http://www.google.com"><button class="ek">buy now</button></a>            
+        </div>
+        <div class="second"><img src="image/iphone11.jpg" alt="iphone11">
+            <a href="#"><button class="do">buy now</button></div></a>
+        
+        <div class="thered">
+            <img src="image/iphone14.jpg" alt="">
+            <button class="tin">buy now</button>
+        </div>
+        <div class="four">
+            <img src="image/logo09.jpg" height="312px" alt="">
+            <button class="char">buy now</button>
+        </div>
+        <div class="five">
+            <img src="image/iphone11.jpg" alt="">
+            <button class="panch">buy now</button>
+        </div>
+    </div>
+    <div class="footer">
+        <img src="https://www.cnet.com/a/img/resize/3580b336aae48a5a84bb6d801099b7d842715990/hub/2018/08/01/bde306b1-b431-45a4-820d-f63fc0aad868/001-2018-ford-mustang-gt-review.jpg?auto=webp&width=1200" width="100%" alt="">
+    </div>
+
+</body>
+</html>
