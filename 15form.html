@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tranparant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-image: url('image/edevjpg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .form{
+            margin: auto;
+            margin-top: 50px;
+            width: 300px;
+            height: 350px;
+            border: 3px solid black;
+            border-radius: 5px;
+            box-shadow: 3px 3px 4px blueviolet;
+            padding: 10px;
+        }
+        input{
+            padding: 5px;
+	        font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+            border: none;
+            width: 250px;
+            border-radius: 3px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            style="font-family: FontAwesome;"
+        }
+        button{
+            padding: 5px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 250px;
+            margin-left: 15px;
+            background-color: skyblue;
+            color: white;
+            border: none;
+            text-decoration: double;
+            border-radius: 5px;
+        }
+        h2{
+            text-align: center;
+        }
+        span{
+            margin-top: 15px;
+            margin-left: 15px;
+            color: white;
+        }
+        p{
+            text-align: center;
+            color: white;
+        }
+        .option1{
+            width: 115px;
+            padding: 5px;
+            background-color: blue;
+            border-radius: 5px;
+            border: none;
+            text-decoration: double;
+        }
+        .option2{
+            width: 115px;
+            padding: 5px; 
+            background-color: pink;
+            border-radius: 5px;
+            text-decoration: double;
+            border: none;
+        }
+        a{
+            text-align: center;
+            margin-left: 15px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <h2 >Login form</h2>
+    <form action="#">
+            <input  type="text" name="User_name" placeholder="&#xf007; User name">
+            <input type="text" name="psw" placeholder="&#xf023; Password">
+            <span><a href="#"><b>Forgot Password?</b></a></span>
+            <button>Submit</button>
+            <a href="#">or login with</a>
+            <br>    
+            <button class="option1">facebook</button>
+            <button class="option2">Instagram</button>
+            <p>Don't have account?<a href="#">Signup now</a></p>
+        </form>
+    </div>
+</body>
+</html>
