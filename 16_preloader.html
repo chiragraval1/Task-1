@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16_preloader</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(to left,red,blueviolet);
+        }
+        .x{
+            height: 150px;
+            width: 150px;
+            margin: auto;
+            border: 10px solid;
+            border-top: 12px solid navajowhite;
+            border-right: 12px solid transparent;
+            border-bottom: 12px solid transparent;
+            border-left: 12px solid transparent;
+            margin-top: 250px;
+            border-radius: 50%;
+            animation: preloader 2s infinite linear ;
+        }
+        @keyframes preloader {
+            /* from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);} */
+            0%{border-top-color: rgb(254, 192, 98); transform: rotate(72deg);}
+            33%{border-right-color: rgb(254, 192, 98); transform: rotate(142deg);}
+            67%{border-bottom-color: rgb(254, 192, 98) ; transform: rotate(216deg);}
+            100%{border-left-color: rgb(254, 192, 98); transform: rotate(288deg);}
+            }
+    </style>
+</head>
+<body>
+    <div class="x">
+
+    </div>
+</body>
+</html>
