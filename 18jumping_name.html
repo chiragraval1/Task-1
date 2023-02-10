@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumping_font</title>
+    <style>
+        body{
+            background-color: black;
+            font-size: 100px;
+            color: gold;
+            text-shadow: 5px 5px 5px grey;
+            font-style: italic;
+        }
+        .main{
+            width: 70%;
+            height: 700px;
+            /* border: 5px solid white; */
+            display: flex;
+        }
+        .c{
+            width: 90px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s infinite linear;
+        }
+        .h{
+            width: 80px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s 0.3s infinite linear;
+        }
+        .i{
+            width: 70px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s 0.6s infinite linear;
+        }
+        .r{
+            width: 70px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s 1s infinite linear;
+        }
+        .a{
+            width: 70px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s 1.3s infinite linear;
+        }
+        .g{
+            width: 70px;
+            height: 150px;
+            /* border: 2px solid black; */
+            animation: chirag 5s 1.6s infinite linear;
+        }
+        @keyframes chirag {
+            0%{transform: translateY(0px) ;}
+            33%{ transform: translateY(100px) ;}
+            66%{transform: translateY(0px) ; }
+            80%{transform: translateY(100px) ;}
+            100%{transform: translateY(0px) ;}
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="c"><p>C</p></div>
+        <div class="h"><p>h</p></div>
+        <div class="i"><p>i</p></div>
+        <div class="r"><p>r</p></div>
+        <div class="a"><p>a</p></div>
+        <div class="g"><p>g</p></div>
+    </div>
+</body>
+</html>
